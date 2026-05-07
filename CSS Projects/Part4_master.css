@@ -1,0 +1,14 @@
+li{
+    color: red;
+    font-size: 25px;
+    list-style-type: square;
+}
+
+.topitems{
+    color: blue;
+    font-size: 20px;
+}
+
+#two{
+    border: 5px dashed green;
+}

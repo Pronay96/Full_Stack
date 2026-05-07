@@ -1,0 +1,41 @@
+body{
+    font-family: Sansita , sans-serif;
+    color: #FFFCFA;
+    background-color: #011627;
+    border: 60px solid #2ec4b6;
+    border-top: 0px;
+    text-align: center;
+    margin: 0px;
+}
+
+.parah{
+    padding-top: 2%;
+    padding-left: 28%;
+    padding-right: 28%;
+}
+
+p{
+    padding-top: 10%;
+}
+
+form{
+    margin-top: 4%;
+    margin-bottom: 0.5%;
+    font-size: 1.2em;
+}
+
+input{
+    font-size: 1em;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+}
+
+button{
+    background-color: #5EFF07;
+    font-size: 1.1em;
+    height: 80px;
+    width: 150px;
+    margin: 4px;
+    border-radius: 25px;
+}
+

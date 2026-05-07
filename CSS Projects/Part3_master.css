@@ -1,0 +1,50 @@
+body{
+    background-image: url('https://wallup.net/wp-content/uploads/2015/12/194745-beach-mountain-sea-island-Lofoten-Norway-clouds-waves-snowy_peak-nature-landscape-sand-water.jpg');
+    background-size: cover;
+    background-position: center;
+}
+h3{
+    background: linear-gradient(to bottom, rgba(187, 255, 0, 0.7), rgba(255, 255, 255, 0.7));
+    display: inline-block;
+    padding: 5px;
+    font-size: 24px;
+    font-family:'Lucida Sans';
+}
+.firstdiv{
+    color: aqua;
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Courier New';
+}
+.seconddiv{
+    color: red;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium';
+}
+#standalone{
+    color:crimson;
+    font-size: 20px;
+    font-family:Verdana;
+    text-decoration: line-through;
+}
+p{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+}
+h3 + ul{
+    border: 5px dashed purple;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: center;
+}
+ul li a{
+    color: #ffffff;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    font-style: normal;
+}
+li a[href="https://www.google.com"]{
+    color: #8fff00;
+    border: 5px double red;
+}

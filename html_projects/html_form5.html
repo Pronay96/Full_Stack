@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Feedback Form</title>
+</head>
+<body>
+    <h1>Hotel Feedback Form</h1>
+    <form action="" method="get">
+        <h3>Are you from India or outside India:</h3>
+        <label for="InInd">Inside India:</label>
+        <input type="radio" id="InInd" name="region" value="Inside">
+        <br>
+        <label for="OutInd">Outside India:</label>
+        <input type="radio" id="OutInd" name="region" value="Outside">
+        <br>
+        
+        <h3>Rate our service:</h3>
+        <label for="Rating">Rating:</label>
+        <select name="Stars" id="Rating">
+            <option value="Outstanding">⭐⭐⭐⭐⭐</option>
+            <option value="Good">⭐⭐⭐⭐</option>
+            <option value="Average">⭐⭐⭐</option>
+            <option value="Poor">⭐⭐</option>
+            <option value="Very Poor">⭐</option>
+        </select>
+        <br>
+
+        <h3>Feedback:</h3>
+        <textarea name="Feedback" id="Feedback" cols="30" rows="10" placeholder="Write your feedback here..."></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>

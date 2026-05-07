@@ -1,0 +1,24 @@
+h1{
+    font-family: Arial; /* Apply Arial font to h1 elements */
+}
+
+p{
+    font-family: monospace; /* Apply monospace font to paragraph elements */
+}
+
+body{
+    font-size: 20px; /* Set base font size for the body */
+}
+    
+#two{
+    font-size: 2em; /* Set font size to 2 times the base size for element with id "two" */
+}
+
+p{
+    font-style: italic; /* Make paragraph text italic */
+    font-weight: bold; /* Make paragraph text bold */
+}
+
+h1{
+    text-align: center; /* Center align h1 text */
+}

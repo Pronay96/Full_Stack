@@ -1,0 +1,35 @@
+/* This is a style sheet for the html */
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/2601920.jpg); /* background color */
+    background-size: cover; /* background size */
+    background-repeat: no-repeat; /* prevents repeating */
+    background-position: center;  /* keeps image centered */
+    background-attachment: fixed; /* optional: makes it stay while scrolling */
+}
+
+h1{
+    color: rgb(117, 238, 119); /* text color */
+}
+p{
+    color: #3CFF01; /* text color */
+    background-color: lightgray; /* background color */
+    display: inline-block; /* display type (Background is autofit as per content) */
+    padding: 20px; /* padding */
+    font: 20px Arial; /* font size and family */
+}
+
+ol{
+    background-color: black; /* background color */
+    display: inline-block; /* display type (Background is autofit as per content) */
+    padding: 20px; /* padding */
+    color: white; /* text color */
+    font-style: italic; /* font style */
+    font-weight: 1000; /* font weight(bold/normal) */
+}
+
+h4{
+    color: rgba(245, 244, 255, 0.8); /* text color */
+    font-weight: 1500; /* font weight(bold/normal) */
+    font-size: xx-large; /* font size */
+}

@@ -1,0 +1,13 @@
+h1{
+    font-family: Arial; /* Apply Arial font to h1 elements */
+}
+
+p{
+    font-family: 'Barrio', cursive; /*Apply custom Barrio font to p elements*/
+}
+
+#two{
+    font-family: 'Rufscript', sans-serif; /*Apply custom Rufscript font to element with id "two"*/
+    font-weight: normal;
+    font-style: oblique;
+}
